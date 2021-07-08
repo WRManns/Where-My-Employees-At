@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import GlobalContext from "../../utils/GlobalContext";
-
+import "./Search.css"
 const Search = () => {
     const context = useContext(GlobalContext);
 
