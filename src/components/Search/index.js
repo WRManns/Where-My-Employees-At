@@ -1,6 +1,8 @@
 import React, { useContext } from "react";
 import GlobalContext from "../../utils/GlobalContext";
 import "./Search.css"
+
+//Renders the search bar and function
 const Search = () => {
     const context = useContext(GlobalContext);
 

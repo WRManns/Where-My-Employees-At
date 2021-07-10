@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import GlobalContext from "../../utils/GlobalContext"
 
+//Renders content to the body of the table
 const Body = () => {
     const context = useContext(GlobalContext);
 

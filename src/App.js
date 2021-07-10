@@ -4,6 +4,7 @@ import Wrapper from './components/Wrapper';
 import Header from './components/Header';
 import './App.css';
 
+//Renders the App
 function App() {
   return (
     <div className="App">
