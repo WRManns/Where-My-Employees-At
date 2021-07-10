@@ -34,7 +34,7 @@ const Sorter = () => {
       })
     }
 
-    //Compares and orders the list
+    //Compares and orders the list based off first names
     const compareFirstName = (a, b) => {
       if (employeeState.order === "ascend") {
         if (a[heading] === undefined) {

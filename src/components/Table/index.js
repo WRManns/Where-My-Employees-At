@@ -3,6 +3,7 @@ import Body from "../Body";
 import GlobalContext from "../../utils/GlobalContext";
 import "./Table.css";
 
+//Reder the table for holding employee info
 const Table = () => {
     const context = useContext(GlobalContext);
 
@@ -17,6 +18,7 @@ const Table = () => {
                     <tr>
                         {context.employeeState.headings.map(({ name, width }) => {
                             return (
+                                //Sets up the 'Name' header to be clickable for sorting
                                 <th
                                     className="col"
                                     key={name}

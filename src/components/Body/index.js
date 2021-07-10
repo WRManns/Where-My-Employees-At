@@ -5,6 +5,7 @@ import GlobalContext from "../../utils/GlobalContext"
 const Body = () => {
     const context = useContext(GlobalContext);
 
+    //Formatting for the employee DOB's
     function formatDate(date){
         const dateArray = date.split("-");
         const year = dateArray[0];
